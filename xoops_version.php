@@ -62,6 +62,40 @@ $modversion['hasComments'] = 0;
 // Notification
 $modversion['hasNotification'] = 0;
 
+// Templates
+$i=1;
+
+$modversion['templates'][$i]['file'] = 'icricketstats_header.html';
+$modversion['templates'][$i]['description'] = 'Header info';
+$i++;
+
+$modversion['templates'][$i]['file'] = 'icricketstats_footer.html';
+$modversion['templates'][$i]['description'] = 'Footer info';
+$i++;
+
+$modversion['templates'][$i]['file'] = 'icricketstats_table.html';
+$modversion['templates'][$i]['description'] = '';
+$i++;
+
+$modversion['templates'][$i]['file'] = 'icricketstats_topten.html';
+$modversion['templates'][$i]['description'] = '';
+
+$i++;
+$modversion['templates'][$i]['file'] = 'icricketstats_viewleague.html';
+$modversion['templates'][$i]['description'] = '';
+
+$i++;
+$modversion['templates'][$i]['file'] = 'icricketstats_viewseason.html';
+$modversion['templates'][$i]['description'] = '';
+
+$i++;
+$modversion['templates'][$i]['file'] = 'icricketstats_headtohead.html';
+$modversion['templates'][$i]['description'] = '';
+
+$i++;
+$modversion['templates'][$i]['file'] = 'icricketstats_admin_menu.html';
+$modversion['templates'][$i]['description'] = '(Admin) Tabs bar for administration pages';
+
 // Config Settings
 global $xoopsDB;
 $cricket_get_seasons = $xoopsDB->query("SELECT SeasonID, SeasonName FROM ".$xoopsDB->prefix('icricket_seasonnames')." WHERE SeasonPublish = '1' ORDER BY SeasonName");

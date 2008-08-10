@@ -1,7 +1,7 @@
 <?php
 
 //Preferences
-define('_MI_CRICK_PREFDEFLEAGTAB','Default league table:');
+define('_MI_CRICK_PREFDEFLEAGTAB','Default League Table:');
 define('_MI_CRICK_PREFTABSIM','Simple');
 define('_MI_CRICK_PREFTABTRA','Traditional');
 define('_MI_CRICK_PREFTABMAT','Mathematical');
@@ -23,10 +23,10 @@ define('_MI_CRICK_PREFLISTTMBG','Cell background colour when listing teams:');
 define('_MI_CRICK_PREFMAINCOLSBG','Cell background behind pld and Pts:');
 define('_MI_CRICK_PREFTTABBGCOL','Background colour inside the table:');
 define('_MI_CRICK_PREFTABBDRCOL','Border colour of the table:');
-define('_MI_CRICK_MINITABLE','Minitable');
+define('_MI_CRICK_MINITABLE','Mini Table');
 define('_MI_CRICK_MINITABLEDSC','Shows default season & league');
 
-define('_MI_CRICK_MINILEAGUETABLE','Minileaguetable');
+define('_MI_CRICK_MINILEAGUETABLE','Mini League Table');
 define('_MI_CRICK_MENU_HEAD2HEAD','head2head');
 define('_MI_CRICK_MENU_SEASSTATS','season');
 define('_MI_CRICK_MENU_LEAGUESTATS','league');
